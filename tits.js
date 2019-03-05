@@ -22,13 +22,12 @@ function judgeTits(size) {
         }
         options = 'width=400,height=300,'+top+left;
         console.log(options);
-        var win = window.open('https://www.google.com/search?rlz=1C5CHFA_enJP802JP803&biw=1440&bih=765&tbm=isch&sa=1&ei=CE1-XMm9BrqMr7wP2euGqAo&q=+'+size+'+cup&oq='+size+'+cup+&gs_l=img.3...888.12596..12952...0.0..0.78.577.8......2....1..gws-wiz-img.....0..0i4j0.1uI3ubgWG1E',winname,options);
 
-        //openWindow(size,winname,options);
+        openWindow(size,winname,options);
     }
 }
 
-//function openWindow(size,winname,options){
+function openWindow(size,winname,options){
+    var win = window.open('https://www.google.com/search?rlz=1C5CHFA_enJP802JP803&biw=1440&bih=765&tbm=isch&sa=1&ei=CE1-XMm9BrqMr7wP2euGqAo&q=+'+size+'+cup&oq='+size+'+cup+&gs_l=img.3...888.12596..12952...0.0..0.78.577.8......2....1..gws-wiz-img.....0..0i4j0.1uI3ubgWG1E',winname,options);
 
-//    var win = window.open('https://www.google.com/search?rlz=1C5CHFA_enJP802JP803&biw=1440&bih=765&tbm=isch&sa=1&ei=CE1-XMm9BrqMr7wP2euGqAo&q=+'+size+'+cup&oq='+size+'+cup+&gs_l=img.3...888.12596..12952...0.0..0.78.577.8......2....1..gws-wiz-img.....0..0i4j0.1uI3ubgWG1E',winname,options);
-//}
+}
