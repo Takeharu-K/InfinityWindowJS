@@ -17,7 +17,7 @@ function infinityWindow(size) {
         left = ',left='+randomInt;
         options = 'width=400,height=300,'+top+left;
         win = window.open('http://livedoor.blogimg.jp/zeropasoakita/imgs/8/0/80a3b734.jpg','',options);
-        if(i==100){
+        if(i==50){
             win = window.open('http://livedoor.blogimg.jp/zeropasoakita/imgs/8/0/80a3b734.jpg','','width='+screen.availWidth+',height='+screen.availHeight);
             break;
         }
